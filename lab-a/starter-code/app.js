@@ -33,7 +33,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+  var output = [];
+  var total = a * b;
+  var answer = 'The product of ' + a + ' and ' + b + ' is ' +  total + '.';
 
+  output.push(total, answer);
+
+  return output;
 }
 
 // Here is the test for multiply(); uncomment it to run it
